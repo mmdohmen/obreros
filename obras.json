@@ -68,6 +68,23 @@
         "contacto": "Ing. Urbano",
         "movil": "261 234 5678",
         "mapa" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.903575170039!2d-68.84160942431161!3d-32.874270568236824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09e10e6c86e3%3A0xc8254bdeedfc0516!2sTrazos%20Urbanos%20Constructora!5e0!3m2!1ses!2sar!4v1725466040849!5m2!1ses!2sar"
+      },
+        {
+        "id": 5,
+        "categorias": "albañiles",
+        "nombre": "Vivienda",
+        "zona": "Norte",
+        "localidad": "Las Heras",
+        "direccion": "Jacarana 979",
+        "aclaraciones": "vereda este",
+        "imagen": "obra05.jpg",
+        "requisitos": "DNI, herramientas, ...",
+        "remuneracion": "xxxxx $/trabajo completo",
+        "presentarse": "dd / mm / 2024",
+        "horario": "09:00 a 17:00",
+        "contacto": "Zhamiska",
+        "movil": "261 222 3333",
+        "mapa" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.39515790830018!2d-68.85675684852079!3d-32.857613489655414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e088a22f1ccf9%3A0x180694602a22bbcf!2sJacarand%C3%A1%20979%2C%20M5539%20Las%20Heras%2C%20Mendoza!5e1!3m2!1ses!2sar!4v1725889991345!5m2!1ses!2sar"
       }
     ]
 }
