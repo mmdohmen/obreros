@@ -72,11 +72,11 @@
         {
         "id": 5,
         "categorias": "albañiles",
-        "nombre": "Vivienda",
+        "nombre": "Remodelacion Vivienda",
         "zona": "Norte",
         "localidad": "Las Heras",
         "direccion": "Jacarana 979",
-        "aclaraciones": "vereda este",
+        "aclaraciones": "vereda este (reja con Santa Rita)",
         "imagen": "obra05.jpg",
         "requisitos": "DNI, herramientas, ...",
         "remuneracion": "xxxxx $/trabajo completo",
