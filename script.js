@@ -3,13 +3,14 @@ function obras (categoria) {
     let url = 'obras.html?categoria=' + categoria;
     window.location.href = url;
 }
-
+/*
 function obra() {
     let url = 'obra.html';
     window.location.href = url;
 }
+*/
 
-url = "https://raw.githubusercontent.com/mmdohmen/obreros/main/data.js"
+url = "https://raw.githubusercontent.com/mmdohmen/obreros/main/obras.json"
 
 fetch(url)
   .then(response => {
@@ -18,9 +19,11 @@ fetch(url)
     }
     return response.json();
   })
-  .then(data => {
-    console.log(data);
+  .then(obras => {
+    console.log(obras);
     // Aquí puedes trabajar con los datos del JSON
+    console.log(typeof(obras))
+    console.warn('obras: ', obras.data)
   })
   .catch(error => {
     console.error('There has been a problem with your fetch operation:', error);
