@@ -85,6 +85,23 @@
         "contacto": "Zhamiska",
         "movil": "261 222 3333",
         "mapa" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.39515790830018!2d-68.85675684852079!3d-32.857613489655414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e088a22f1ccf9%3A0x180694602a22bbcf!2sJacarand%C3%A1%20979%2C%20M5539%20Las%20Heras%2C%20Mendoza!5e1!3m2!1ses!2sar!4v1725889991345!5m2!1ses!2sar"
+      },
+        {
+        "id": 6,
+        "categorias": "albañiles",
+        "nombre": "Nave Industrial",
+        "zona": "Norte",
+        "localidad": "Las Heras",
+        "direccion": "Parque Industrial de Las Heras",
+        "aclaraciones": "Calle 4 entre Calles 3 y 5",
+        "imagen": "obra06.jpg",
+        "requisitos": "DNI, herramientas de mano, ...",
+        "remuneracion": "xxxxx $/dia",
+        "presentarse": "dd / mm / 2024",
+        "horario": "09:00 a 17:00",
+        "contacto": "Capataz Sergio",
+        "movil": "261 987 6543",
+        "mapa" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1676.5383827073638!2d-68.80938469833026!3d-32.816730925416984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e050d731948ad%3A0x6b50c95a723bbd7b!2sAtomo%20Panificados!5e0!3m2!1ses!2sar!4v1725980830505!5m2!1ses!2sar"
       }
     ]
 }
