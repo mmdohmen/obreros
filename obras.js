@@ -15,7 +15,7 @@ const eventosDOM = document.getElementById("obras")
 
 
 // datos locales =================================================================================
-console.log("obras.data")
+console.log("datos LOCALES:   obras.data")
 const datosObras = obras.data
 console.log("datosObras: ", datosObras)
 console.log(typeof(datosObras))
@@ -35,12 +35,13 @@ fetch(url)
     return response.json();
   })
   .then(obras => {
-    console.error("obras.json - WEB")
+    console.error("datos WEB:   obras.json")
     console.log(obras);
     // Aquí puedes trabajar con los datos del JSON
     console.log(typeof(obras))
     console.warn('obras.data: ', obras.data)
     console.log(typeof(obras))
+
     cards(obras.data)
 
   })
@@ -60,6 +61,7 @@ function cards(arrayDatos) {
     }
     let cards = ""
     arrayDatos.forEach(element => {
+      if (element.categorias == categoria) {console.log("if funcionando", categoria)
         cards += `
         <div class="row obra" >
             <div class="col-4">
@@ -78,7 +80,7 @@ function cards(arrayDatos) {
             </div>
         </div>
         `
-    });
+    }});
     eventosDOM.innerHTML = cards
 }
 
