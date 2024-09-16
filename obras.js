@@ -1,4 +1,4 @@
-// capturo la categoria de la URL
+// capturo la CATEGORIA de la URL
 const urlParams = window.location.search
 console.log("url params:", urlParams)
 const params = new URLSearchParams(urlParams)
@@ -18,7 +18,7 @@ const eventosDOM = document.getElementById("obras")
 console.log("datos LOCALES:   obras.data")
 const datosObras = obras.data
 console.log("datosObras: ", datosObras)
-console.log(typeof(datosObras))
+console.log(typeof (datosObras))
 
 // llamo a la funcion
 //cards(datosObras)
@@ -38,9 +38,9 @@ fetch(url)
     console.error("datos WEB:   obras.json")
     console.log(obras);
     // Aquí puedes trabajar con los datos del JSON
-    console.log(typeof(obras))
+    console.log(typeof (obras))
     console.warn('obras.data: ', obras.data)
-    console.log(typeof(obras))
+    console.log(typeof (obras))
 
     cards(obras.data)
 
@@ -53,16 +53,18 @@ fetch(url)
 
 // FUNCIONES   ================================================================================================================================
 function cards(arrayDatos) {
-    if (arrayDatos.length == 0) {
-        eventosDOM.innerHTML = ""
-        Swal.fire('there are NO EVENTS with the text entered ...').then(resultado => {
-            if (resultado.value) { window.location.reload() }
-        })
-    }
-    let cards = ""
-    arrayDatos.forEach(element => {
-      if (element.categorias == categoria) {console.log("if funcionando", categoria)
-        cards += `
+  if (arrayDatos.length == 0) {
+    eventosDOM.innerHTML = ""
+    Swal.fire('there are NO EVENTS with the text entered ...').then(resultado => {
+      if (resultado.value) { window.location.reload() }
+    })
+  }
+  let cards = ""
+  arrayDatos.forEach(element => {
+    //if (element.categorias == categoria)}
+    if (element.categorias.some(cat => cat == categoria)) {
+      console.log("if funcionando", categoria)
+      cards += `
         <div class="row obra" >
             <div class="col-4">
                 <img src="./img/${element.imagen}" class="img-fluid rounded-start" alt="...">
@@ -80,8 +82,9 @@ function cards(arrayDatos) {
             </div>
         </div>
         `
-    }});
-    eventosDOM.innerHTML = cards
+    }
+  });
+  eventosDOM.innerHTML = cards
 }
 
 
