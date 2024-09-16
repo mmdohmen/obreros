@@ -3,7 +3,7 @@
     "data": [
       {
         "id": 1,
-        "categorias": ["albañiles"],
+        "categorias": ["albañiles", "ayudantes", "armadores", "encofradores"],
         "nombre": "Complejo JARDINES DE CIVIT",
         "zona": "Gran Mendoza",
         "localidad": "Godoy Cruz",
@@ -20,7 +20,7 @@
       },
       {
         "id": 2,
-        "categorias": ["albañiles"],
+        "categorias": ["albañiles", "mamposteros"],
         "nombre": "Vivienda",
         "zona": "Gran Mendoza",
         "localidad": "Guaymallen",
@@ -37,7 +37,7 @@
       },
       {
         "id": 3,
-        "categorias": ["albañiles"],
+        "categorias": ["albañiles", "ayudantes"],
         "nombre": "Edificio",
         "zona": "Gran Mendoza",
         "localidad": "Ciudad",
@@ -54,7 +54,7 @@
       },
       {
         "id": 4,
-        "categorias": ["ayudantes"],
+        "categorias": ["ayudantes", "excavadores"],
         "nombre": "Urbanizacion",
         "zona": "Valle de Uco",
         "localidad": "Tunuyan",
@@ -71,7 +71,7 @@
       },
         {
         "id": 5,
-        "categorias": ["albañiles", "ceramistas"],
+        "categorias": ["albañiles", "ceramistas", "yeseros", "pintores"],
         "nombre": "Remodelacion Vivienda",
         "zona": "Norte",
         "localidad": "Las Heras",
@@ -88,7 +88,7 @@
       },
         {
         "id": 6,
-        "categorias": ["electricistas"],
+        "categorias": ["electricistas", "gasistas", "metalurgicos"],
         "nombre": "Nave Industrial",
         "zona": "Norte",
         "localidad": "Las Heras",

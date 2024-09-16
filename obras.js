@@ -60,11 +60,16 @@ function cards(arrayDatos) {
     })
   }
   let cards = ""
-  arrayDatos.forEach(element => {
+
+  // Filtrar los objetos con la categoria "categoria"
+  // uso filter() para: iterar sobre cada objeto en el array 'arrayDatos'
+  //     some()         verificar si al menos uno de los elementos del array categorias es igual a "categoria"
+  const arrayDatosFiltrado = arrayDatos.filter(item => item.categorias.some(cat => cat === categoria))
+
+  arrayDatosFiltrado.forEach(element => {
     //if (element.categorias == categoria)}
-    if (element.categorias.some(cat => cat == categoria)) {
-      console.log("if funcionando", categoria)
-      cards += `
+    console.log("if funcionando", categoria)
+    cards += `
         <div class="row obra" >
             <div class="col-4">
                 <img src="./img/${element.imagen}" class="img-fluid rounded-start" alt="...">
@@ -82,7 +87,7 @@ function cards(arrayDatos) {
             </div>
         </div>
         `
-    }
+    //}
   });
   eventosDOM.innerHTML = cards
 }
