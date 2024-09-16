@@ -1,8 +1,21 @@
+// capturo la categoria de la URL
+const urlParams = window.location.search
+console.log("url params:", urlParams)
+const params = new URLSearchParams(urlParams)
+console.log("params:", params)
+const categoria = params.get("categoria")
+console.warn("categoria:", categoria)
+
+const h1categoria = document.getElementById("categoria")
+h1categoria.innerText = categoria.toUpperCase()
+
+
 // capturo al contenedor del DOM
 const eventosDOM = document.getElementById("obras")
 
 
 // datos locales =================================================================================
+console.log("obras.data")
 const datosObras = obras.data
 console.log("datosObras: ", datosObras)
 console.log(typeof(datosObras))
@@ -22,6 +35,7 @@ fetch(url)
     return response.json();
   })
   .then(obras => {
+    console.error("obras.json - WEB")
     console.log(obras);
     // Aquí puedes trabajar con los datos del JSON
     console.log(typeof(obras))
@@ -33,9 +47,6 @@ fetch(url)
   .catch(error => {
     console.error('There has been a problem with your fetch operation:', error);
   });
-
-
-
 
 
 
