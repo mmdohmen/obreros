@@ -102,6 +102,23 @@
         "contacto": "Capataz Sergio",
         "movil": "261 987 6543",
         "mapa" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1676.5383827073638!2d-68.80938469833026!3d-32.816730925416984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e050d731948ad%3A0x6b50c95a723bbd7b!2sAtomo%20Panificados!5e0!3m2!1ses!2sar!4v1725980830505!5m2!1ses!2sar"
-      }
+      },
+      {
+      "id": 7,
+      "categorias": ["albañiles", "ayudantes", "electricistas", "gasistas", "metalurgicos"],
+      "nombre": "Nave Industrial",
+      "zona": "Este",
+      "localidad": "Rivadavia",
+      "direccion": "Ruta Provincial 50",
+      "aclaraciones": "esquina Lavalle",
+      "imagen": "obra07.jpg",
+      "requisitos": "DNI, herramientas de mano, ...",
+      "remuneracion": "xxxxx $/dia",
+      "presentarse": "dd / mm / 2024",
+      "horario": "09:00 a 17:00",
+      "contacto": "Jefe de Obra",
+      "movil": "261 162 3443",
+      "mapa" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2228.1484723261688!2d-68.47303679794882!3d-33.20228185071473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e5d86ebdd999d%3A0xb5bac3235a6d70c7!2sPlanta%20de%20Verificacion%20Vehicular!5e0!3m2!1ses!2sar!4v1726756227669!5m2!1ses!2sar"
+    }
     ]
 }
