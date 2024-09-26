@@ -119,6 +119,23 @@
       "contacto": "Jefe de Obra",
       "movil": "261 162 3443",
       "mapa" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2228.1484723261688!2d-68.47303679794882!3d-33.20228185071473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e5d86ebdd999d%3A0xb5bac3235a6d70c7!2sPlanta%20de%20Verificacion%20Vehicular!5e0!3m2!1ses!2sar!4v1726756227669!5m2!1ses!2sar"
-    }
+    },
+    {
+    "id": 8,
+    "categorias": ["albañiles", "ayudantes", "encofradores", "armadores"],
+    "nombre": "Ampliación E°P° Balloffet",
+    "zona": "Sur",
+    "localidad": "San Rafael",
+    "direccion": "calle Los Filtros",
+    "aclaraciones": "Establecimiento Potabilizador AySAM , al lado de DPV",
+    "imagen": "obra08.jpg",
+    "requisitos": "DNI, herramientas de mano, ...",
+    "remuneracion": "xxxxx $/dia",
+    "presentarse": "dd / mm / 2024",
+    "horario": "09:00 a 17:00",
+    "contacto": "Ing. Alejandro GIL",
+    "movil": "261 629 7703",
+    "mapa" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.014791361703!2d-68.3876446!3d-34.6290665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9679092dfb5df3dd%3A0x3634a2cd863c6db8!2sPlanta%20Potabilizadora%20de%20Agua!5e0!3m2!1ses!2sar!4v1727311388490!5m2!1ses!2sar"
+  }
     ]
 }
