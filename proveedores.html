@@ -32,7 +32,7 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"></li>
-                        <a href="#">Materiales</a>
+                        <a href="materiales.html">Materiales</a>
                         </li>
                         <li class="nav-item"></li>
                         <a href="#">Maquinarias</a>
@@ -56,7 +56,7 @@
     <main class="container-fluid d-flex flex-column">
 
         <div class="row" style="background-color: orange;">
-            <h1 id="categoria">MATERIALES</h1>
+            <h1 id="categoria">ACEROS - ALAMBRES</h1>
         </div>
 
         <div id="zonas">
@@ -72,28 +72,45 @@
         </div>
 
 
-        <!-- lista de MATERIALES -->
-        <ul class="list-group">
-            <li class="list-group-item" onclick="proveedores('aceros')">aceros, alambres, clavos</li>
-            <li class="list-group-item">aridos (ripio, arena, ...)</li>
-            <li class="list-group-item">maderas (tablas, tablones, ...)</li>
-            <li class="list-group-item">ladrillos, ladrillones</li>
-            <li class="list-group-item">cemento, cal</li>
-            <li class="list-group-item">aditivos (hidrofugos, acelerantes, ...)</li>
-            <li class="list-group-item">aislantes (asfaltos, membranas, ...)</li>
-            <li class="list-group-item">sanitarios (caños, accesorios, artefactos, ...)</li>
-            <li class="list-group-item">electricos (caños, cables, tableros, ...)</li>
-            <li class="list-group-item">gas (caños, accesorios, ventilaciones, ...)</li>
-            <li class="list-group-item">techos (correas, tejas, aislaciones)</li>
-            <li class="list-group-item">chapas</li>
-            <li class="list-group-item">pisos & revestimientos</li>
-            <li class="list-group-item">yesos, molduras</li>
-            <li class="list-group-item">aberturas (puertas, ventanas, ...)</li>
-            <li class="list-group-item">vidrios</li>
-            <li class="list-group-item">pinturas & revestimientos</li>
-            <li class="list-group-item">amoblamientos de cocina</li>
-            <li class="list-group-item">placares</li>
-          </ul>
+        <!-- ARRAY de datos de obras -->
+        <div class="row obras" id="obras">
+
+            <div class="row obra">
+                <div class="col-4">
+                    <img src="./img/kamet.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-8">
+                    <p><mark>KAMET</mark> </p>
+                    <p>localidad: <b>Guaymallen</b></p>
+                    <p><small>calle: <i>O'brien 66 - San Jose</i></small></p>
+                    <div class="row">
+                        <div class="col-7"></div>
+                        <div class="col-1">
+                            <a href="obra.html?id=${element.id}" class="btn btn-outline-secondary btn-sm">detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row obra">
+                <div class="col-4">
+                    <img src="./img/palumbo.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-8">
+                    <p><mark>PALUMBO hierros</mark> </p>
+                    <p>localidad: <b>Maipu</b></p>
+                    <p><small>calle: <i>Carril Rodriguez Peña 1000</i></small></p>
+                    <div class="row">
+                        <div class="col-7"></div>
+                        <div class="col-1">
+                            <a href="obra.html?id=${element.id}" class="btn btn-outline-secondary btn-sm">detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </main>
 
 
@@ -132,7 +149,7 @@
         crossorigin="anonymous"></script>
 
     <!-- script -->
-    <script src="materiales.js"></script>
+    
     <!-- 
     <script src="data.js"></script>
     <script src="obras.js"></script> -->
