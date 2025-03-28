@@ -136,6 +136,23 @@
     "contacto": "Ing. Alejandro GIL",
     "movil": "261 629 7703",
     "mapa" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.014791361703!2d-68.3876446!3d-34.6290665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9679092dfb5df3dd%3A0x3634a2cd863c6db8!2sPlanta%20Potabilizadora%20de%20Agua!5e0!3m2!1ses!2sar!4v1727311388490!5m2!1ses!2sar"
+  },
+  {
+    "id": 9,
+    "categorias": ["albañiles", "yeseros", "ceramistas", "durleros"],
+    "nombre": "Construccion Barrio YABOR",
+    "zona": "Este",
+    "localidad": "San Martin",
+    "direccion": "Lateral Sur Ruta Nacional 7",
+    "aclaraciones": "entre Viamonte y Pedro Vargas (50 m al oeste de la pasarela peatonal)",
+    "imagen": "obra09.jpeg",
+    "requisitos": "DNI, herramientas, ...",
+    "remuneracion": "xxxxx $/dia",
+    "presentarse": "dd / 04 / 2025",
+    "horario": "09:00 a 17:00",
+    "contacto": "Ing. Franco PARIS",
+    "movil": "261 745 2294",
+    "mapa" : "https://maps.app.goo.gl/EQd5XCDaGPJN2TZGA"
   }
     ]
 }
